@@ -313,8 +313,8 @@ span {
   box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
 }
 
-.main-icons a:active {
-    background-color: rgb(255, 175, 24);
+.main-icon:visited {
+    background-color: grey;
 }
 
 .main-images {
@@ -337,3 +337,4 @@ span {
   margin-bottom: 45px;
 
 }
+
