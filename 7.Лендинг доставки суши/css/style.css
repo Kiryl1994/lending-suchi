@@ -317,10 +317,6 @@ span {
     background-color: rgb(255, 175, 24);
 }
 
-.main-icons a:visited {
-    background-color: gray;
-}
-
 .main-images {
     display: inline-block;
     vertical-align: middle;
@@ -339,4 +335,5 @@ span {
   padding-left: 390px;
   margin-top: 44px;
   margin-bottom: 45px;
+
 }
