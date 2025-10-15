@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(2, 3, 3);
+}
+
+.header {
+    padding: 30px 0 30px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container,
+.main .container,
+.main-text .container,
+.footer .container {
+    font-size: 0;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    margin-left: 187px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 25px;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: rgb(255, 175, 24);
+    border-bottom: 2px solid rgb(255, 175, 24);
+}
+
+.menu-contacts {
+    margin-left: 54px;
+}
+
+
+
+.main {
+    padding: 132px 0 80px 0;
+}
+
+.main-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-info h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    max-width: 565px;
+}
+
+.main-info-text {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 81px;
+}
+
+span {
+    color: rgb(255, 175, 24);
+}
+
+.main-info-description-one {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-info-description-one img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-info-description-two {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 100px;
+}
+
+.main-info-description-two img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-info-option {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-action {
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 99px;
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 3.438;
+    text-decoration: none;
+}
+
+.main-action:hover {
+    box-shadow: 0 8px 5px 3px rgba(240, 161, 13, 0.247);
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+
+
+
+.secondary-info {
+    padding: 124px 0 120px 0;
+    font-size: 0;
+}
+
+.secondary-info h3 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.secondary-container {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.menu-rolls {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 12px 12px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 272px;
+    height: 344px;
+    border: 5px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.menu-rolls:hover {
+    box-shadow: 0 3px 13.8px 1.2px #ffffff8c;
+}
+
+.menu-rolls:first-child,
+.menu-rolls:last-child {
+    border: 5px solid rgb(255, 175, 24);
+}
+
+.menu-rolls h5 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.menu-rolls p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    margin-top: 15px;
+    width: 217px;
+    height: 32px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.button-click {
+    background-color: rgb(255, 175, 24);
+    width: 240px;
+    height: 48px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 175, 24);
+}
+
+.button-click:hover {
+    box-shadow: 0 8px 5px 3px rgba(240, 161, 13, 0.479);
+}
+
+.button-orange {
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 3.438;
+    text-decoration: none;
+}
+
+
+
+.main-text {
+    font-size: 0;
+}
+
+
+.main-text-container {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 120px 0 67px 0;
+}
+
+.main-text-container h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    width: 374px;
+    height: 78px;
+    padding-bottom: 60px;
+}
+
+.main-text-container p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    width: 344px;
+    height: 160px;
+    padding-bottom: 100px;
+}
+
+.main-text-container h3 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    width: 350px;
+    height: 59px;
+    padding-bottom: 40px;
+}
+
+.main-icons {
+    display: inline-block;
+    vertical-align: middle;
+    height: 60px;
+}
+
+.main-icons img {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.main-icon:first-child {
+    padding-left: 0;
+}
+
+.main-icons a {
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-right: 40px;
+}
+
+.main-icons a:hover {
+  box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.main-icons a:active {
+    background-color: rgb(255, 175, 24);
+}
+
+.main-icons a:visited {
+    background-color: gray;
+}
+
+.main-images {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    margin-top: 204px;
+    padding-bottom: 67px;
+}
+
+
+.text-footer {
+  font-size: 12px;
+  color: rgb(44, 44, 44);
+  line-height: 1.2;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 390px;
+  margin-top: 44px;
+  margin-bottom: 45px;
+}
